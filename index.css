@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    font-size: 1.625rem;
+    color: #5477ad;
+    letter-spacing: 0.08rem;
+}
+
+p {
+    color: #222;
+}
+
+/* #5477ad */
+
+.wrap {
+    padding: 60px 0 0 60px;
+}
+
+.about_me_wrap {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1120px;
+}
+
+.about_des_wrap {
+    display: flex;
+}
+
+.about_des {
+    font-weight: 400;
+    font-size: 15px;
+    width: 60%;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.about_des span {
+    color: #5477ad;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.contact li {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact li span {
+    color: #5477ad;
+    font-weight: 600;
+}
+
+.contact li u {
+    margin-top: -2px;
+}
+
+.project_btn {
+    border: 1px solid #5478ad3d;
+    width: 200px;
+}
+
+.project_btn:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
+}
+
+.project_btn a {
+    width: 100%;
+    text-align: center;
+    color: #5477ad;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+/* SKILL */
+.skill {
+    width: 100%;
+    max-width: 1120px;
+    margin-top: 70px;
+}
+
+.skill h1 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.skills_des {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_des>div {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.skills_des>div p {
+    font-weight: bold;
+    width: 300px;
+}
+
+.skills_des>div ul {
+    display: flex;
+    gap: 5px;
+}
+
+/* career */
+.career {
+    width: 100%;
+    max-width: 1120px;
+    margin-top: 70px;
+}
+.career h1 {
+    font-size: 21px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.career_des li {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.career_title {
+    font-size: 14px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.career_title span {
+    color: #575757c8;
+    letter-spacing: 1px;
+}
+
+.career_title p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.career_des li p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.career_des li p span {
+    font-weight: 500;
+    color: #5477ad;
+}
+
+/* PROJECT */
+.project {
+    margin-top: 70px;
+    padding-right: 50px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.project>h1 {
+    font-size: 2.25rem;
+    margin-bottom: 55px;
+}
+
+.project_wrap ul {
+    width: 100%;
+}
+
+.project_wrap ul li .project_inner_wrap{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.project_wrap ul li .project_img {
+    width: 50%;
+}
+
+.project_wrap ul li .project_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.project_wrap ul li .project_des {
+    width: 50%;
+}
+
+.project_des h1 {
+    font-weight: 500;
+    font-size: 23px;
+    color: #004dc1;
+}
+
+.project_des h1 span {
+    color: #333;
+    font-size: 20px;
+}
+
+.project_des {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project_des p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.project_des p span {
+    color: #5477ad;
+    font-weight: 500;
+}
+
+.project_des .link>div {
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px 0 10px 0px;
+}
+
+.project_des .link>div span {
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 100px;
+    display: block;
+    font-size: 15px;
+}
+
+.project_des .link>div a {
+    font-size: 15px;
+}
+
+.project_des .link>div .point {
+    display: block;
+    padding-left: 20px;
+    font-weight: 400;
+    color: rgb(182, 0, 0);
+    white-space: nowrap;
+}
+
+.project_skills h2 {
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 20px 0 10px;
+}
+
+.project_skills ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project_skills ul li {
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+/* FEELING */
+.feeling h2 {
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 50px 0 10px;
+}
+
+.feeling_des {
+    line-height: 29px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+/* TOOC */
+.tooc {
+    margin-top: 100px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+    width: 100vw;
+    height: 200px;
+    background-color: #000c1f;
+    margin-left: -60px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 33px;
+}
